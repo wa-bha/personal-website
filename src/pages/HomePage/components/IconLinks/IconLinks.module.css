@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.icon {
+  padding: 0.6rem 0.6rem 0.3rem 0.6rem;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    border-radius: 0.5rem;
+    background-color: #ceb5b0;
+  }
+}

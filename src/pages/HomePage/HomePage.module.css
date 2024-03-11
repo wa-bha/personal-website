@@ -4,10 +4,11 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: #faf7f6;
 }
 
 .homePageNameHeading {
   font-size: calc(2rem + 2vmin);
-  text-transform: uppercase;
+  text-transform: lowercase;
+  font-weight: 600;
 }

@@ -3,6 +3,7 @@ import React from "react";
 import GraphemeSplitter from "grapheme-splitter";
 import { TypeAnimation } from "react-type-animation";
 
+import IconLinks from "./components/IconLinks";
 import styles from "./HomePage.module.css";
 
 const HomePage = () => {
@@ -19,9 +20,9 @@ const HomePage = () => {
           sequence={[
             "I can turn caffeine ☕ into code.",
             5000,
-            "I like 🏂 snowboarding...",
+            "I'm learning to 🏂 snowboard...",
             2000,
-            "I like 🥾 hiking trails.",
+            "and I like 🥾 hiking trails.",
             5000,
           ]}
           wrapper="span"
@@ -35,6 +36,8 @@ const HomePage = () => {
           repeat={Infinity}
         />
       </div>
+
+      <IconLinks />
     </div>
   );
 };
