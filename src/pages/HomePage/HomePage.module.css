@@ -1,0 +1,13 @@
+.homePage {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.homePageNameHeading {
+  font-size: calc(2rem + 2vmin);
+  text-transform: uppercase;
+}
