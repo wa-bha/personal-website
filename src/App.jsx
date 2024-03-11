@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <HomePage />
       <footer className="App-footer">
-        <span className="App-footer-text">made in welly, with 💜</span>
+        <span className="App-footer-text">made with 💜 in welly.</span>
       </footer>
     </div>
   );

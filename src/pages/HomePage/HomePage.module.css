@@ -1,4 +1,6 @@
 .homePage {
+  padding-left: 1rem;
+  padding-right: 1rem;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -8,7 +10,10 @@
 }
 
 .homePageNameHeading {
-  font-size: calc(2rem + 2vmin);
+  font-size: calc(3rem + 2vmin);
   text-transform: lowercase;
   font-weight: 600;
+  letter-spacing: -2px;
+  color: #faf7f6;
+  text-decoration: none;
 }

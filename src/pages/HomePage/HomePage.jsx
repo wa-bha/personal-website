@@ -11,7 +11,14 @@ const HomePage = () => {
 
   return (
     <div className={styles.homePage}>
-      <div className={styles.homePageNameHeading}>Bhavit Wadhwa</div>
+      <a
+        className={styles.homePageNameHeading}
+        href="https://en.wikipedia.org/wiki/Flat_white"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Bhavit Wadhwa
+      </a>
 
       <div className={styles.typeContainer}>
         <TypeAnimation
@@ -20,9 +27,9 @@ const HomePage = () => {
           sequence={[
             "I can turn caffeine ☕ into code.",
             5000,
-            "I'm learning to 🏂 snowboard...",
+            "I'm learning how to 🏂 snowboard",
             2000,
-            "and I like 🥾 hiking trails.",
+            "and I find joy in being out 🥾 hiking.",
             5000,
           ]}
           wrapper="span"
