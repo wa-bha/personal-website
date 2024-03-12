@@ -2,8 +2,9 @@
 
 ### the stack 🛠️
 
-- <img src="src/assets/react.ico" alt="React Logo" width="10" height="10" /> react with javascript
-- vanilla CSS
+- react <img src="src/assets/react.ico" alt="React Logo" width="10" height="10" /> with javascript
+- vanilla css
+- firebase
 
 ### getting started 🏁
 
