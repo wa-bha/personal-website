@@ -1,33 +1,43 @@
 html {
   /* 62.5% of 16px browser font size is 10px - see 1rem trick */
   font-size: 62.5%;
+  font-weight: 500;
+  color: white;
 }
 
 html,
 body,
 #root,
-.App {
+.app {
   height: 100%;
   text-align: center;
+}
+
+.app__page-wrapper {
   background-color: #c9ada7;
-  font-weight: 500;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
 }
 
-.App-footer {
-  position: relative;
+.app__footer {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  height: fit-content;
+  padding: 0rem 1.5rem 1.5rem;
 }
 
-.App-footer-text {
-  font-size: 1.25rem;
-  font-weight: 600;
-
-  color: white;
-  position: absolute;
-  right: 1.5rem;
-  bottom: 1.5rem;
-
+.app__footer-pill {
   padding: 7px;
   border: 1.5px solid white;
   border-radius: 5px;
   background-color: #ceb5b0;
+}
+
+.app__footer-text {
+  font-size: 1.25rem;
+  font-weight: 600;
 }

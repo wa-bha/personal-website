@@ -25,11 +25,11 @@ const HomePage = () => {
           className={styles.type}
           splitter={(str) => splitter.splitGraphemes(str)}
           sequence={[
-            "I can turn caffeine ☕ into code.",
+            "I can turn coffee ☕ into code ✨",
             5000,
-            "I'm learning how to 🏂 snowboard",
+            "currently learning to snowboard 🏂",
             2000,
-            "and I find joy in being out 🥾 hiking.",
+            "and I'm most happy when I'm out hiking 🥾",
             5000,
           ]}
           wrapper="span"

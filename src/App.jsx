@@ -4,10 +4,12 @@ import HomePage from "./pages/HomePage";
 
 function App() {
   return (
-    <div className="App">
+    <div className="app__page-wrapper">
       <HomePage />
-      <footer className="App-footer">
-        <span className="App-footer-text">made with 💜 in welly.</span>
+      <footer className="app__footer">
+        <div className="app__footer-pill">
+          <span className="app__footer-text">made with 💜 in welly.</span>
+        </div>
       </footer>
     </div>
   );

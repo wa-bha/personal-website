@@ -13,7 +13,7 @@ const IconLinks = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <Linkedin color="#faf7f6" size={28} strokeWidth="0.75px" />
+        <Linkedin color="#faf7f6" size={28} strokeWidth="0.9px" />
       </a>
 
       <a
@@ -22,7 +22,7 @@ const IconLinks = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <GitHub color="#faf7f6" size={28} strokeWidth="0.75px" />
+        <GitHub color="#faf7f6" size={28} strokeWidth="0.9px" />
       </a>
     </div>
   );
