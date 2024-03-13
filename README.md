@@ -4,7 +4,7 @@
 
 - react <img src="src/assets/react.ico" alt="React Logo" width="10" height="10" /> with javascript
 - vanilla css
-- firebase
+- firebase hosting
 
 ### getting started 🏁
 

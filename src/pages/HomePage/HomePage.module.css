@@ -10,10 +10,21 @@
 }
 
 .homePageNameHeading {
-  font-size: calc(3rem + 2vmin);
-  text-transform: lowercase;
+  font-size: calc(3.5rem + 2vmin);
   font-weight: 600;
   letter-spacing: -2px;
-  color: #faf7f6;
+  text-transform: lowercase;
   text-decoration: none;
+  color: #faf7f6;
+}
+
+@media only screen and (max-width: 600px) {
+  .typeContainer {
+    min-height: 4rem;
+  }
+
+  .homePageNameHeading {
+    font-size: calc(2.5rem + 2vmin);
+    padding-bottom: 0.5rem;
+  }
 }
