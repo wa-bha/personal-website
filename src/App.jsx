@@ -9,7 +9,7 @@ function App() {
 
       <footer className="app__footer">
         <div className="app__footer-pill">
-          <span className="app__footer-text">made with 💜 in welly.</span>
+          <span className="app__footer-text">made with <img src="https://c.tenor.com/NB-xWAb9OpQAAAAC/tenor.gif"> in welly.</span>
         </div>
       </footer>
     </main>
